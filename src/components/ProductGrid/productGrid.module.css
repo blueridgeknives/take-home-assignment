@@ -1,0 +1,32 @@
+.productImage {
+    height: 250px;
+    padding-top: 10px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.productCard {
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.productName {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-weight: 500;
+}
+
+.productPrice {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
